@@ -20,5 +20,10 @@ public class Mascota
     {
 
     }
+
+    public void IncrementarNivel(int unidad)
+    {
+        this.Nivel = this.Nivel + unidad;
+    }
 }
 

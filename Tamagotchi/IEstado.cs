@@ -7,7 +7,7 @@ namespace Tamagotchi;
 
 public interface IEstado
 {
-    public void Jugar();
-    public void Comer();
+    public void Jugar(Mascota mascota);
+    public void Comer(Mascota mascota);
 
 }

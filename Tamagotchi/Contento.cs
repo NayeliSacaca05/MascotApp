@@ -7,13 +7,13 @@ namespace Tamagotchi;
 
 public class Contento : IEstado
 {
-    public void Comer()
+    public void Comer(Mascota mascota)
     {
-        throw new NotImplementedException();
+        mascota.IncrementarNivel(1);
     }
 
-    public void Jugar()
+    public void Jugar(Mascota mascota)
     {
-        throw new NotImplementedException();
+        mascota.IncrementarNivel(2);
     }
 }

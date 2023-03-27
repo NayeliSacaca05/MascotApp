@@ -7,13 +7,14 @@ namespace Tamagotchi;
 
 public class Hambriento : IEstado
 {
-    public void Comer()
+
+    public void Comer(Mascota mascota)
     {
-        throw new NotImplementedException();
+        mascota.Estado = new Contento();
     }
 
-    public void Jugar()
+    public void Jugar(Mascota mascota)
     {
-        throw new NotImplementedException();
+
     }
 }
